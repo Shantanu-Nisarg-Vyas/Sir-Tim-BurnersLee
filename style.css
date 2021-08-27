@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    padding-top: 1000px;
+}
+
+#sec1 {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: linear-gradient(#FFEE58 20%, #BF360C 80%);
+    color: darkviolet;
+    display: table;
+    height: 1000px;
+    width: 100%;
+    z-index: 999
+}
+
+#Image {
+    border-radius: 30%;
+    border-color: #1A2B3C;
+    border-width: 50px;
+    margin-top: 100px;
+}
+
+#sec2 {
+    position: absolute;
+    background: linear-gradient(#880E4F 20%, #D500F9 80%);
+    color: #E1BEE7;
+    display: table;
+    top: 1000px;
+    font-size: 50px;
+    width: 100%;
+    font-family: 'Kaisei Tokumin', serif;
+}
+
+#secchange {
+    list-style: none;
+    top: 10px;
+    right: 30px;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.links {
+    float: none;
+}
